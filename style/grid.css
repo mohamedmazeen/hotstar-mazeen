@@ -1,0 +1,13 @@
+/**
+*
+* grid.css 
+* @author - Mazeen
+* @date - 12/7/2023 
+**/
+.grid-1r {
+    display: grid;
+    grid-template-columns: repeat(2, 170px); /* Adjust the column width as needed */
+    grid-gap: 10px; 
+    margin: 0;
+    padding: 0;
+}

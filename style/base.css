@@ -1,0 +1,61 @@
+/**
+*
+* base.css 
+* @author - Mazeen
+* @date - 12/7/2023 
+**/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0C111B;
+    font-family: "roboto";
+    font-size: 16px;
+    color: #d0d1d4;
+}
+h1 {
+    font-size: 28px;
+    color: #fff;
+}
+h2 {
+    font-size: 20px;
+    color: #fff;
+}
+h3 {
+    font-size: 16px;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+}
+h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #fff;
+}
+h6 {
+    margin: 0;
+    padding: 3px 0;
+    font-size: 8px;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #d0d1d4;
+}
+header {
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    background-color: #131927;
+    z-index: 1;
+}
+p {
+    line-height: 28px;
+    color: #c8cacc;
+}
+footer {
+    padding: 90px 0 50px 0;
+}

@@ -1,0 +1,98 @@
+/**
+*
+* list.css 
+* @author - Mazeen
+* @date - 12/7/2023 
+**/
+.left-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.left-menu-list>li {
+    display: inline-block;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+.sub-menu {
+    display: none;
+}
+.sub-menu ul {
+    list-style: none;
+    padding: 0 20px;
+}
+.sub-menu ul>li {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sub-menu ul > :first-child {
+    margin-top: 10px;
+}
+.sub-menu ul > :last-child {
+    margin-bottom: 10px;
+}
+.left-menu-list>li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #192133;
+    margin-top: 20px;
+    margin-left: -15px;
+    border-radius: 5px;
+    padding: 0;
+    list-style: none;
+}
+.left-menu-list .fa-tv, .fa-language, .fa-masks-theater {
+    font-size: 12px;
+    margin-right: 10px;
+}
+.right-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.right-menu-list li {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.right-menu-list .field-set {
+    border-bottom: 1px solid #a0a3a8;
+    padding-bottom: 5px;
+    padding-left: 0px;
+
+}
+.movie-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.movie-list li {
+    display: inline-block;
+    padding: 0 4px;
+}
+.movie-list li img {
+    border-radius: 5px;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-list li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.social-list li {
+    display: inline-block;
+    font-size: 40px;    
+    color: #192133;
+    padding-right: 3px;
+}

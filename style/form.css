@@ -1,0 +1,49 @@
+/**
+*
+* form.css 
+* @author - Mazeen
+* @date - 12/7/2023 
+**/
+.primary-btn {
+    outline: none;
+    border: none;
+    background-color: #1f80e0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.secondary-btn {
+    outline: none;
+    border: none;
+    font-size: 13px;
+    font-weight: 550;
+    color: #d0d1d4;
+    background: none;
+    cursor: pointer;
+}
+.tertiary-btn {
+    outline: none;
+    border: none;
+    font-size: 8px;
+    background: none;
+    color: #a7aab1;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tertiary-btn .fa-solid {
+    margin-right: 10px;
+}
+.text-field {
+    background-color: #131927;
+    color: #A1A3A9;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+}
+.text-field::placeholder {
+    color: #caced4;
+}

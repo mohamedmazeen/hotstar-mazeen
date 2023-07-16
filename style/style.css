@@ -1,0 +1,114 @@
+/**
+*
+* style.css 
+* @author - Mazeen
+* @date - 12/7/2023 
+**/
+.wrapper {
+    padding: 0 50px;
+}
+.fa-solid {
+    color: #a1a3a9;
+}
+.fa-magnifying-glass {
+    color: #6b7377;
+    font-size: 13px;
+}
+.highlight-left {
+    background-color: #030b17;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 50px;
+    height: 100%;
+}
+.highlight-title {
+    margin: 0;
+    padding-top: 55px;
+}
+.highlight-subtitle {
+    padding-top: 18px;
+    color: #9a9da2;
+    font-weight: bold;
+}
+.highlight-img {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.fa-chevron-left {
+    font-size: 30px;
+    color: #fff;
+}
+.fa-chevron-right {
+    font-size: 30px;
+    color: #fff;
+}
+
+.image-position {
+    position: relative;
+}
+.movie-title-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.fa-play {
+    color: #fff;
+}
+.movie-opacity img {
+    opacity: 0.6;
+}
+.movie-title-center-container {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0px;
+    right: 0px;
+}
+.footer-rights {
+    font-size: 12px;
+}
+.social-title {
+    font-size: 14px;
+    color: #95a0a4;
+    font-weight: bold;
+}
+.fa-square-twitter {
+    color: #192133;
+}
+.fa-square-facebook{
+    color: #192133;
+}
+.social-left {
+    width: 100px;
+    margin: 0 auto;
+}
+.social-right {
+    width: 275px;
+    margin-left: auto;
+}
+.sub-description {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: normal;
+    padding: 2px 0;
+    margin: 0;
+    color: #d0d1d4;
+}
+.movie-description {
+    display: none;
+}
+.zoom:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+.zoom:hover .movie-description {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0 0 10px 10px;
+}

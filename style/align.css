@@ -1,0 +1,25 @@
+/**
+*
+* align.css 
+* @author - Mazeen
+* @date - 12/7/2023 
+**/
+.v-center-h-right {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.v-center-h-left {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vh-center {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-right {
+    display: inline-flex;
+    justify-content: flex-end;
+}
